@@ -3,7 +3,7 @@ import cloudinary from "../../../Services/cloudinary.js";
 import slugify from'slugify'
 import productModel from "../../../../DB/model/Product.model.js";
 import subCategoryModel from "../../../../DB/model/SubCategory.model.js";
-import brandModel from "../../../../DB/model/brand.model.js";
+import brandModel from "../../../../DB/model/Brand.model.js";
 
 
 export const createProduct = asyncHandler(async(req,res,next)=>{
