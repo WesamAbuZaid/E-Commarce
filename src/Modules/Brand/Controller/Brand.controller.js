@@ -1,6 +1,6 @@
 import { asyncHandler } from "../../../Services/errorHandling.js";
 import cloudinary from "../../../Services/cloudinary.js";
-import brandModel from "../../../../DB/model/brand.model.js";
+import brandModel from "../../../../DB/model/Brand.model.js";
 
 export const getAllBrands = asyncHandler(async(req,res,next)=>{
     
